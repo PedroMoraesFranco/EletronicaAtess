@@ -1,0 +1,58 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho Comum a Todas as Páginas */
+header, .footer {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-title {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Conteúdo Comum a Todas as Páginas */
+.content {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos para Páginas Específicas */
+.index-content {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.support-content, .support-content p {
+    background: #e0e0e0;
+    border: 1px solid #bbb;
+    padding: 10px;
+}
+
+.about-content {
+    background: #e0e0e0;
+    border: 1px solid #bbb;
+    padding: 10px;
+}
